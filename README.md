@@ -1,6 +1,6 @@
 # Electrical Power Data Analysis using Python
 
-This project analyzes three-phase electrical power quality data using Python.
+This project analyzes three-phase electrical power quality data using Python. The dataset used in this project was collected in 2024 during a power quality monitoring activity using a power quality analyzer connected to the main panel of an airport site in the Philippines. The original analysis was performed using Excel, and this repository revisits the dataset using Python for deeper data visualization and imbalance detection.
 
 ## Features
 
@@ -28,3 +28,4 @@ Thresholds used:
 Normal < 10%  
 Warning 10–15%  
 Critical > 15%
+
