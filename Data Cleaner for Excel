@@ -1,0 +1,23 @@
+import pandas as pd
+
+df=pd.read_csv("Data Sheet 3 1-18-23.csv", skiprows=2)
+
+columns_needed = [
+    "UAvg",
+    "IA",
+    "IB",
+    "IC",
+    "UTHDAvg",
+    "ITHDAvg",
+    "PF",
+    "F",
+    "PSum",
+    "SSum"
+]
+
+clean_data = df[columns_needed]
+
+clean_data.to_csv("Clean Power Quality Data 3.csv", index =False)
+
+print('Data Cleaned Successfully')
+print(clean_data.head())
